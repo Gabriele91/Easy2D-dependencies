@@ -12,11 +12,11 @@
 
 namespace Easy2D
 {
-#include <LuaBridge/LuaBridge.h>
-#include <LuaBridge/RefCountedObject.h>
-#if defined(USE_LUABRIDGE_PTR)
-    #include <LuaBridge/RefCountedPtr.h>
-#endif
+    #include <LuaBridge/LuaBridge.h>
+    //#include <LuaBridge/RefCountedObject.h>
+    //#if defined(USE_LUABRIDGE_PTR)
+    //    #include <LuaBridge/RefCountedPtr.h>
+    //#endif
 };
 
 #endif
